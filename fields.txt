@@ -1,0 +1,15 @@
+<tr><td>Actual Value</td><td id="actualValue"></td></tr>
+              <tr><td>Freight Cost</td><td id="freightCost"></td></tr>
+              <tr><td>Insurance</td><td id="insuranceCost"></td></tr>
+              <tr><td>Dutiable Value($)</td><td id="dutiableValueUSD"></td></tr>
+              <tr><td>exchange rate</td><td id="xRate"></td></tr>
+              <tr><td>Dutiable Value(Php)</td><td id="dutiableValuePeso"></td></tr>
+              <tr><td>Rate of Duty</td><td id="rateOfDuty"></td></tr>
+              <tr><td>Customs Duty</td><td id="customsDuty"></td></tr>
+              <tr><td>Brokerage Fee</td><td id="brokersFee"></td></tr>
+              <tr><td>Customs Docs Stamps</td><td id="docStamps"></td></tr>
+              <tr><td>Excise Tax</td><td id="exciseTax"></td></tr>
+              <tr><td>Import Processing Fee</td><td id="importProcessingFee"></td></tr>
+              <tr><td>Landed Cost</td><td id="landedCost"></td></tr>
+              <tr><td>VAT rate</td><td id="vatRate"></td></tr>
+              <tr><td>VAT</td><td id="vat"></td></tr>
