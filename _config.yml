@@ -1,6 +1,6 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: ERC Abay Abay Customs Brokerage
+email: emmanabayabay@yahoo.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -25,3 +25,8 @@ corbox: http://www.corbox.com/
 ramtyres: http://www.corbox.com/
 virginia: http://www.virginiafood.com.ph/
 boral: https://www.usgboral.com/en_ph/
+lracustomsbrokerage: http://lracustoms.com/
+dof: http://www.dof.gov.ph/
+tariffcom: http://www.tariffcommission.gov.ph/
+ccbi: http://ccbi.org.ph
+rotary: http://www.rccebufuente.org
