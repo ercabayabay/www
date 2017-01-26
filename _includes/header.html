@@ -9,7 +9,7 @@
               &nbsp;
             </div>
             <!-- end col-3 -->
-            <div class="col-md-3 col-sm-4 col-xs-8"> <span class="phone"><i class="ion-ios-telephone"></i> +63 32 511 6600 </span> </div>
+            <div class="col-md-3 col-sm-4 col-xs-8"> <span itemprop="telephone" class="phone"><i class="ion-ios-telephone"></i> +63 32 511 6600 </span> </div>
             <!-- end col-3 --> 
           </div>
           <!-- end row --> 
@@ -22,16 +22,18 @@
           <div class="row">
             <div class="col-md-3 col-sm-4 col-xs-12">
               <button type="button" class="navbar-toggle toggle-menu menu-left push-body" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-              <a class="navbar-brand" href="index.html"><img src="{{ site.baseurl }}/images/logo.png" alt="Image"></a> </div>
+              <a class="navbar-brand" href="index.html"><img src="{{ site.url }}/images/logo.png" alt="Image"></a> </div>
             <!-- end col-5 -->
             <div class="col-md-3 col-sm-4 hidden-xs"> <i class="icon-global"></i>
               <h6>OPENING HOURS<br>
-                <span>MON-FRI 07:00 - 18:00 </span></h6>
+                <span itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+<span itemprop="dayOfWeek" itemscope itemtype="http://schema.org/DayOfWeek">
+<span itemprop="name">MON-FRI</span> </span>09:00 - 18:00 </span></h6>
             </div>
             <!-- end col-2 -->
             <div class="col-md-3 col-sm-4 hidden-xs"> <i class="icon-map-pin"></i>
               <h6>OUR LOCATION<br>
-                <span>NORTH RECLAMATION AREA - CEBU CITY PH</span></h6>
+                <span>Unit 2D, Sail Centre Commercial Complex, JL Briones Street, North Area Reclaiming, Cebu City, 6000, Philippines</span></h6>
             </div>
             <!-- end col-2 -->
             <div class="col-md-3 hidden-sm hidden-xs"> <i class="icon-chat"></i>
@@ -45,11 +47,11 @@
         <!-- end navbar-header -->
         <div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav main-menu">
-            <li><a href="{{ site.baseurl }}/" class="transition">HOME</a></li>
-            <li><a href="{{ site.baseurl }}/aboutus/" class="transition">ABOUT US</a></li>
-            <li><a href="{{ site.baseurl }}/services/" class="transition">SERVICES</a></li>
-            <li><a href="{{ site.baseurl }}/news/" class="transition">NEWS</a></li>
-            <li><a href="{{ site.baseurl }}/contact/" class="transition">CONTACT US</a></li>
+            <li><a href="{{ site.url }}/" class="transition">HOME</a></li>
+            <li><a href="{{ site.url }}/aboutus/" class="transition">ABOUT US</a></li>
+            <li><a href="{{ site.url }}/services/" class="transition">SERVICES</a></li>
+            <li><a href="{{ site.url }}/news/" class="transition">NEWS</a></li>
+            <li><a href="{{ site.url }}/contact/" class="transition">CONTACT US</a></li>
           </ul>
           <ul class="nav navbar-nav social-nav visible-lg visible-xs">
             <li><a href="{{ site.facebook }}" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="ion-social-facebook"></i></a></li>
