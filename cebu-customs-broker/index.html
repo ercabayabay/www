@@ -1,76 +1,391 @@
-<header class="full-header">
-    <nav class="navbar navbar-default">
-      <div class="top-bar">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-sm-6 hidden-xs"> Now helping <span class="numbers">20</span> clients all over the world </div>
-            <!-- end col-6 -->
-            <div class="col-md-3 col-sm-2 col-xs-4">
-              &nbsp;
-            </div>
-            <!-- end col-3 -->
-            <div class="col-md-3 col-sm-4 col-xs-8"> <span itemprop="telephone" class="phone"><i class="ion-ios-telephone"></i> +63 32 511 6600 </span> </div>
-            <!-- end col-3 --> 
-          </div>
-          <!-- end row --> 
-        </div>
-        <!-- end container --> 
-      </div>
-      <!-- end top-bar -->
+---
+layout: default
+title: ERC Abay-Abay Customs Brokerage
+---
+<!-- end full-header -->
+  <section class="slider">
+    <div class="fixed-form">
       <div class="container">
-        <div class="navbar-header">
-          <div class="row">
-            <div class="col-md-3 col-sm-4 col-xs-12">
-              <button type="button" class="navbar-toggle toggle-menu menu-left push-body" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-              <a class="navbar-brand" href="index.html"><img src="{{ site.url }}/images/logo.png" alt="Image"></a> </div>
-            <!-- end col-5 -->
-            <div class="col-md-3 col-sm-4 hidden-xs"> <i class="icon-global"></i>
-              <h6>OPENING HOURS<br>
-                <span itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
-<span itemprop="dayOfWeek" itemscope itemtype="http://schema.org/DayOfWeek">
-<span itemprop="name">MON-FRI</span> </span>09:00 - 18:00 </span></h6>
+        <h3>WORRY-FREE TRADING</h3>
+        <h5>We make it simple for you</h5>
+        {% comment %}
+        <form>
+          <input type="text" placeholder="Tracking ID">
+          &nbsp;
+          <input type="text" class="datepicker" placeholder="Date">
+          &nbsp;
+          <button type="submit">CHECK SHIPPING</button>
+        </form>
+        {% endcomment %}
+      </div>
+      <!-- end container --> 
+    </div>
+    <!-- end fixed-form -->
+    <div class="main-slider">
+      <div class="slide1"> </div>
+      <!-- end slider1 -->
+      <div class="slide2"> </div>
+      <!-- end slider2 -->
+      <div class="slide3"> </div>
+      <!-- end slider3 --> 
+    </div>
+  </section>
+  <!-- end slider -->
+  {% comment %}
+  <!-- end featured-services -->
+  <section class="calculate-shipping">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <h3 class="section-title"><span>01</span>CUSTOMS DUTIES ESTIMATE </h3>
+          <form>
+            <div class="row">
+              <div class="col-md-6 col-sm-6">
+                <div class="form-group">
+                  <label>Origin</label>
+                  <select class="selectpicker">
+                    <option>China</option>
+                    <option>USA</option>
+                    <option>Hongkong</option>
+                    <option>UK</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Product Desciption</label>
+                  <input type="text" placeholder="for example: 304.5E2 XTC CAT Excavator">
+                </div>
+                <div class="form-group">
+                  <label>Category</label>
+                  <select class="selectpicker">
+                    <option>Electronic equipment</option>
+                    <option>Oil</option>
+                    <option>Machines, engines, pumps</option>
+                    <option>Vehicles</option>
+                    <option>Plastics</option>
+                    <option>Iron and steel</option>
+                    <option>Cereals</option>
+                    <option>Aircraft, spacecraft</option>
+                    <option>Pharmaceuticals</option>
+                    <option>Food waste, animal fodder</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="form-group">
+                  <label>Actual Value</label>
+                  <input id="inActualVal" type="text" placeholder="$10000">
+                </div>
+                <div class="form-group">
+                  <label>Freight Cost</label>
+                  <input id="inFreightCost" type="text" placeholder="$1000">
+                </div>
+                <div class="form-group">
+                  <label>Insurance Cost</label>
+                  <input id="inInsuranceCost" type="text" placeholder="$200">
+                </div>
+                <!-- end form-group -->
+                <div class="form-group">
+                  <button id="calculateBtn" type="button" >CALCULATE</button>
+                </div>
+                <!-- end form-group --> 
+              </div>
+              <!-- col-6 --> 
             </div>
-            <!-- end col-2 -->
-            <div class="col-md-3 col-sm-4 hidden-xs"> <i class="icon-map-pin"></i>
-              <h6>OUR LOCATION<br>
-                <span>Unit 2D, Sail Centre Commercial Complex, JL Briones Street, North Area Reclaiming, Cebu City, 6000, Philippines</span></h6>
-            </div>
-            <!-- end col-2 -->
-            <div class="col-md-3 hidden-sm hidden-xs"> <i class="icon-chat"></i>
-              <h6>QUICK CONTACT<br>
-                <span><a href="mailto:emmanabayabay@yahoo.com">EMMANABAYABAY@YAHOO.COM</a></span></h6>
-            </div>
-            <!-- end col-2 --> 
-          </div>
-          <!-- end row --> 
+            <!-- end row -->
+          </form>
         </div>
-        <!-- end navbar-header -->
-        <div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav main-menu">
-            <li><a href="{{ site.url }}/" class="transition">HOME</a></li>
-            <li><a href="{{ site.url }}/aboutus/" class="transition">ABOUT US</a></li>
-            <li><a href="{{ site.url }}/services/" class="transition">SERVICES</a></li>
-            <li><a href="{{ site.url }}/news/" class="transition">NEWS</a></li>
-            <li><a href="{{ site.url }}/contact/" class="transition">CONTACT US</a></li>
-          </ul>
-          <ul class="nav navbar-nav social-nav visible-lg visible-xs">
-            <li><a href="{{ site.facebook }}" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="ion-social-facebook"></i></a></li>
-            <li><a href="{{ site.twitter }}" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="ion-social-twitter"></i></a></li>
-            <li><a href="{{ site.instagram }}" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="ion-social-instagram"></i></a></li>
-          </ul>
-          <ul class="nav navbar-nav icon-nav hidden-sm">
-            <li><a href="javascript:void(0)" class="hamburger-menu"><i class="ion-navicon"></i></a></li>
-            <li><a href="javascript:void(0)" class="search-btn"><i class="ion-search"></i></a></li>
-            <li class="search-box">
-              <form>
-                <input type="text" placeholder="Type here">
-                <button type="submit"><i class="ion-chevron-right"></i></button>
-              </form>
+        <!-- end col-8 -->
+        <div class="col-md-4 hidden-sm hidden-xs">
+          <figure> <img src="images/calculate-man.jpg" alt="Image"> </figure>
+        </div>
+        <!-- end col-4 --> 
+      </div>
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </section>
+  <!-- end calculate-shipping -->
+  {% endcomment %}
+  <section class="featured-services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="left-side">
+            <h3 class="section-title"><span>01</span>Customs Clearance to Delivery & Trucking</h3>
+            <p>Bringing you industry-specific expertise; whatever you’re shipping, wherever you’re shipping it. </p>
+            <ul>
+              <li>Shipper delivers a professional, efficient service </li>
+              <li>Tailored to the specific needs of your business.</li>
+              <li>Our services are designed around you.</li>
+            </ul>
+          </div>
+          <!-- end left-side --> 
+        </div>
+        <!-- end col-5 -->
+        <div class="col-md-7">
+          <div class="right-side">
+            <div class="service-box">
+              <figure><img src="images/icon01.png" alt="Image">
+                <figcaption>SEA SHIPPING</figcaption>
+              </figure>
+              <div class="desc"> We want to ensure that it’s as easy as possible to use the site to get.</div>
+              <!-- end desc --> 
+            </div>
+            <!-- end service-box -->
+            <div class="service-box spacing">
+              <figure><img src="images/icon02.png" alt="Image">
+                <figcaption>AIR SHIPPING</figcaption>
+              </figure>
+              <div class="desc"> Shipments moving, whether you’ve worked with us for years completely new.</div>
+              <!-- end desc --> 
+            </div>
+            <!-- end service-box -->
+            <div class="service-box">
+              <figure><img src="images/icon03.png" alt="Image">
+                <figcaption>LAND SHIPPING</figcaption>
+              </figure>
+              <div class="desc">International shipping. For further assistance, please get in touch. </div>
+              <!-- end desc --> 
+            </div>
+            <!-- end service-box --> 
+          </div>
+          <!-- end right-side --> 
+        </div>
+        <!-- end col-7 --> 
+      </div>
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </section>
+  <section class="steps-features">
+    <div class="container">
+      <div class="row spacing">
+        <div class="col-md-4 col-sm-4 spacing">
+          <div class="step-box bg-1"> <span>01</span>
+            <h3>IMPORT </h3>
+            <h5>ENTRY</h5>
+            <a href="#">READ MORE</a> </div>
+          <!-- end step-box --> 
+        </div>
+        <!-- end col-4 -->
+        <div class="col-md-4 col-sm-4 spacing">
+          <div class="step-box bg-2 featured"> <span>02</span>
+            <h3>CUSTOMS</h3>
+            <h5>CLEARANCE</h5>
+            <a href="#">READ MORE</a> </div>
+          <!-- end step-box --> 
+        </div>
+        <!-- end col-4 -->
+        <div class="col-md-4 col-sm-4 spacing">
+          <div class="step-box bg-3"> <span>03</span>
+            <h3>DELIVERY</h3>
+            <h5>SERVICES</h5>
+            <a href="#">READ MORE</a> </div>
+          <!-- end step-box --> 
+        </div>
+        <!-- end col-4 --> 
+      </div>
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </section>
+  <!-- end steps-features -->
+  
+  <section class="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="content-carousel">
+            <div>
+              <figure><img src="{{ site.url }}/images/logo09x109.jpg" alt="ERC Customs Brokerage"></figure>
+              <blockquote>ERC Abay-abay is a world leader in Philippine container shipping and a company offering global service with local knowledge. ERC Abay-abay Customs Brokerage also provides integrated network of road and sea transport resources which stretches across the Philippines.</blockquote>
+              <i class="ion-android-hangout"></i>
+              <h4>Cycle Nautical Forwarders Inc.</h4>
+              <small><a href="https://www.facebook.com/cyclenauticalforwarders/?fref=ts">@cyclenauticalforwarders</a></small> </div>
+            <!-- end div -->
+            {% comment %}
+            <div>
+              <figure><img src="images/testimonial-head2.png" alt="Image"></figure>
+              <blockquote>We are a privately owned global organisation operating a network of over 480 offices in 150 countries, employing a team of over 24,000 dedicated individuals. We have an established fleet of 480 container vessels with an intake capacity</blockquote>
+              <i class="ion-android-hangout"></i>
+              <h4>Jessica Carter</h4>
+              <small>SHIPPING DIRECTOR</small> </div>
+            <!-- end div -->
+            <div>
+              <figure><img src="images/testimonial-head3.png" alt="Image"></figure>
+              <blockquote>Our sea freight offering is complemented by our integrated warehousing and haulage services, which enable us to offer a true door-to-door service. As a company, we believe in operating as independent national carriers, this means we’re able to offer you a global.</blockquote>
+              <i class="ion-android-hangout"></i>
+              <h4>Chris O'Conner</h4>
+              <small>SENIOR MARKETTING</small> </div>
+              {% endcomment %}
+            <!-- end div --> 
+          </div>
+          <!-- end content-carousel --> 
+
+        </div>
+        <!-- end col-12 --> 
+      </div>
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </section>
+  <!-- end testimonials -->
+
+
+  <section class="latest-news">
+    <div class="container">
+      <div class="row spacing">
+        <div class="col-xs-12 spacing">
+          <h3 class="section-title"><span>03</span>LATEST NEWS</h3>
+        </div>
+        <!-- end col-12 -->
+        <div class="col-md-4 col-sm-6 spacing">
+          <div class="news-box">
+            <figure><img src="images/news1.jpg" alt="Image"><span class="date">02/OCT</span></figure>
+            <div class="news-caption">
+              <h4>Social and demographic information</h4>
+              <p>There are no hidden costs associated with our transportation services</p>
+              <a href="#">READ MORE</a> </div>
+            <!-- end news-caption --> 
+          </div>
+          <!-- end news-box --> 
+        </div>
+        <!-- end col-4 -->
+        <div class="col-md-4 col-sm-6 hidden-xs spacing">
+          <div class="news-box">
+            <div class="news-caption">
+              <h4>Team member to discuss our meeting</h4>
+              <p>Offers you peace-of-mind that we’ll be on-hand to help whenever you need us.</p>
+              <a href="#">READ MORE</a> </div>
+            <!-- end news-caption -->
+            <figure><img src="images/news2.jpg" alt="Image"><span class="date">02/OCT</span></figure>
+          </div>
+          <!-- end news-box --> 
+        </div>
+        <!-- end col-4 -->
+        <div class="col-md-4 hidden-sm spacing">
+          <div class="news-box">
+            <figure><img src="images/news3.jpg" alt="Image"><span class="date">02/OCT</span></figure>
+            <div class="news-caption">
+              <h4>Financial Institutions changes control</h4>
+              <p>As a company, we believe in operating as independent national carriers.</p>
+              <a href="#">READ MORE</a> </div>
+            <!-- end news-caption --> 
+          </div>
+          <!-- end news-box --> 
+        </div>
+        <!-- end col-4 --> 
+      </div>
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </section>
+  <!-- end latest-news -->
+  <section class="clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 spacing">
+          <h3 class="section-title"><span>04</span>OUR CLIENTS AND PARTNERS</h3>
+        </div>
+        <div class="col-xs-12">
+          <ul>
+            <li>
+              <figure>
+                <h5><a href="{{ site.virginia }}" target="_blank"><img src="{{ site.baseurl }}/images/clients/virginia.jpg" alt="virginia"></a></a></h5>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <h5><a href="{{ site.fande }}" target="_blank"><img src="{{ site.baseurl }}/images/clients/f&eent.jpg" alt="F&E Enterprise"></a></h5>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <h5><a href="{{ site.corbox }}" target="_blank"><img src="{{ site.baseurl }}/images/clients/corbox.jpg" alt="Corbox"></a></h5>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <h5><a href="{{ site.matimco }}" target="_blank"><img src="{{ site.baseurl }}/images/clients/matimco.jpg" alt="Matimco"></a></h5>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <h5><a href="{{ site.savers_depot }}" target="_blank"><img src="{{ site.baseurl }}/images/clients/saversdepot.jpg" alt="Savers Depot"></a></h5>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <h5><a href="{{ site.boral }}" target="_blank"><img src="{{ site.baseurl }}/images/clients/boral.jpg" alt="BORAL PLASTERBOARD PHILIPPINES, INC"></a></h5>
+              </figure>
             </li>
           </ul>
         </div>
-        <!-- end navbar-collapse --> 
+        <!-- end col-12 --> 
       </div>
-      <!-- end container --> 
-    </nav>
-  </header>
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </section>
+  <section class="about-intro parent">
+    <div class="left-side">
+      <div class="content-box">
+        <h3 class="section-title"><span>04</span>ABOUT ERC Abay-Abay</h3>
+        <p>We have trained, experienced experts available for our full range of services including reefer, out-of-gauge, breakbulk and each of our trade services – each operating in tandem with your business. This gives us the ability to uphold the personal service we’re globally recognised</p>
+        <div class="fun-facts">
+          <h5>FUN FACTS</h5>
+          <div class="fun-box"> <i class="ion-trophy"></i> <span class="title">GETTED AWARDS</span> <span class="plus">+</span><b class="counter">1.246</b> </div>
+          <!-- end fun-box -->
+          <div class="fun-box"> <i class="ion-umbrella"></i> <span class="title">CARRIED PACKAGE</span><span class="plus">+</span><b class="counter">2.638</b> </div>
+          <!-- end fun-box --> 
+        </div>
+        <!-- end fun-facts --> 
+      </div>
+      <!-- end content-box --> 
+    </div>
+    <!-- end left-side -->
+    <div class="right-side" data-stellar-background-ratio="0.5">
+      <div class="overlay parent text-center">
+        <div>LOGISTIC</div>
+      </div>
+    </div>
+    <!-- end left-side --> 
+  </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="computation" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Sample Estimate</h4>
+        </div>
+        <div class="modal-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Description</th>
+                <th>Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Customs Duty</td><td id="customsDuty"></td></tr>
+              <tr><td>Value Added Tax</td><td id="vat"></td></tr>
+              <tr><td>Excise Tax</td><td id="exciseTax"></td></tr>
+              <tr><td>Import Processing Fee</td><td id="importProcessingFee"></td></tr>
+              <tr><td>Total Duties & Taxes</td><td id="totalTaxesAndDuties"></td></tr>
+              <tr><td>Duty Handling Fee</td><td id="dutyHandlingFee"></td></tr>
+              <tr><td>Informal Entry Declaration</td><td id="informalEntryDec"></td></tr>
+              <tr><td>Storage Fee</td><td id="storageFee"></td></tr>
+              <tr><td>Collectors Clearance</td><td id="collectorsClearance"></td></tr>
+              <tr class="success"><td><strong>Total Fees</strong></td><td><strong><span id="totalFees"></span></strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Contact</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
