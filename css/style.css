@@ -614,7 +614,7 @@ footer{ width:100%; float:left;}
 .steps-features .step-box:hover a:after{ width:100%;}
 .steps-features .step-box.featured{ margin-top:-30px; padding-bottom:40px; background-color:#283593;}
 .steps-features .step-box.featured span{ opacity:0.2; margin-top:16px;}
-.steps-features .step-box.featured h5{ color:#413686;}
+.steps-features .step-box.featured h5{ color:#fafbfe;}
 .steps-features .step-box span{ width:100%; height:44px; float:left; font-size:40px; opacity:0.10; color:#fff; font-weight:700;}
 .steps-features .step-box h3{ width:100%; height:44px; float:left; font-weight:700; font-size:40px; color:#fff; margin:0;}
 .steps-features .step-box h5{ width:100%; float:left; font-weight:400; font-size:22px; color:#fafbfe; margin-top:0; margin-bottom:30px;}
