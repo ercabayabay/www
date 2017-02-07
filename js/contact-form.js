@@ -1,3 +1,5 @@
+---
+---
 jQuery(document).ready(function($) {
 	"use strict";
 // Contact form
@@ -33,10 +35,22 @@ jQuery(document).ready(function($) {
             }
         },
 		submitHandler: function(form) {
+
+        var vEmail = $('#contact .email').val();
+        var vMessage = $('#contact .message').val();
+        var vName =  $('#contact .name').val();
+        var vNum = $('#contact .number').val();
+
+        var vSubject = "Inquiry from:" + vName +" [" +vNum +"]";
             $(form).ajaxSubmit({
                 type:"POST",
-                data: $(form).serialize(),
-                url:"process.php",
+                data: {
+                            email: vEmail,
+                            message: vMessage,
+                            name: vName,
+                            _subject: vSubject
+                },
+                url:"http://formspree.io/{{ site.gmail }}",
                 success: function() {
                     $('#contact :input').attr('disabled', 'disabled');
                     $('#contact').fadeTo( "slow", 0.15, function() {

@@ -1,3 +1,5 @@
+---
+---
 // JavaScript for themezinho
 (function($) {
 $(document).ready(function() {
