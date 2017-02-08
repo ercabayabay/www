@@ -25,6 +25,7 @@ Importers identified in the list are required to submit the following documents 
 - Print out of importer’s CPRS profile as amended; and
 - Print out of VASPS’s email notification of “STORED” CPRS profile.
 
+
 Commissioner Nicanor Faeldon reminded these importers to inform BOC of their updated contact details to ensure effective communication between importers and the Bureau. “This is one of the ways to better serve the importers, so they should also do their duty by informing us of any changes in their phone numbers or email addresses,” he said.
 
 source: [http://customs.gov.ph/boc-to-importers-update-your-contact-details-or-face-suspension/][src]

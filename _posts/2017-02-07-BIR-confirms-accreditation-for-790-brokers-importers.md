@@ -15,10 +15,10 @@ source: http://www.portcalls.com/bir-confirms-accreditation-renewal-dates-790-im
 
 A total of 204 importers and customs brokers whose accreditation are set to expire from March to May are already scheduled to renew their BIR accreditation this month.
 
-[Renewal list for BIR-Brokers Clearance Certificate for March 2017][march2017]
-[Renewal list for BIR-Brokers Clearance Certificate for April 2017][april2017]
-[Renewal list for BIR-Importers Clearance Certificate for March 2017][impmarch2017]
-[Renewal list for BIR-Importers Clearance Certificate for April 2017][impapril2017]
+- [Renewal list for BIR-Brokers Clearance Certificate for March 2017][mar2017]
+- [Renewal list for BIR-Brokers Clearance Certificate for April 2017][april2017]
+- [Renewal list for BIR-Importers Clearance Certificate for March 2017][impmarch2017]
+- [Renewal list for BIR-Importers Clearance Certificate for April 2017][impapril2017]
 
 Under the rules set by Department of Finance (DOF) in 2014, securing the BCC and ICC from BIR’s Accounts Receivable Monitoring Division is the first step a customs broker or importer must take to be accredited then be allowed to transact with the BOC. DOF is the mother agency of both BIR and BOC.
 
