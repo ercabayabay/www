@@ -245,8 +245,10 @@ title: ERC Abay-Abay Customs Brokerage
         
         {% for news in site.posts limit: 3%}
         {% assign loopindex = forloop.index | modulo: 2 %}
-        {% if loopindex == 1 %}
+        {% if loopindex == 0 %}
            {% assign addcss = "hidden-xs" %}
+        {% else %}
+           {% assign addcss = "" %}
         {% endif %}
         <div class="col-md-4 col-sm-6 {{ addcss }} spacing">
           
