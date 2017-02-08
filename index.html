@@ -254,37 +254,13 @@ title: ERC Abay-Abay Customs Brokerage
             <figure><img src="{{ site.url }}/images/news1.jpg" alt="Image"><span class="date">{{ news.short_date }}</span></figure>
             <div class="news-caption">
               <h4>{{ news.title }}</h4>
-              <p>{{ news.excerpt | strip_html | truncatewords: 30 }}</p>
+              <p>{{ news.excerpt | strip_html | truncatewords: 10 }}</p>
               <a href="{{ news.url }}">READ MORE</a> </div>
             <!-- end news-caption --> 
           </div>
           <!-- end news-box -->
         </div>
         {% endfor %}
-        <!-- end col-4 -->
-        <div class="col-md-4 col-sm-6 hidden-xs spacing">
-          <div class="news-box">
-            <div class="news-caption">
-              <h4>Team member to discuss our meeting</h4>
-              <p>Offers you peace-of-mind that we’ll be on-hand to help whenever you need us.</p>
-              <a href="#">READ MORE</a> </div>
-            <!-- end news-caption -->
-            <figure><img src="images/news2.jpg" alt="Image"><span class="date">02/OCT</span></figure>
-          </div>
-          <!-- end news-box --> 
-        </div>
-        <!-- end col-4 -->
-        <div class="col-md-4 hidden-sm spacing">
-          <div class="news-box">
-            <figure><img src="images/news3.jpg" alt="Image"><span class="date">02/OCT</span></figure>
-            <div class="news-caption">
-              <h4>Financial Institutions changes control</h4>
-              <p>As a company, we believe in operating as independent national carriers.</p>
-              <a href="#">READ MORE</a> </div>
-            <!-- end news-caption --> 
-          </div>
-          <!-- end news-box --> 
-        </div>
         <!-- end col-4 --> 
       </div>
       <!-- end row --> 
