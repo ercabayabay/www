@@ -242,8 +242,14 @@ title: ERC Abay-Abay Customs Brokerage
           <h3 class="section-title"><span>03</span>LATEST NEWS</h3>
         </div>
         <!-- end col-12 -->
-        <div class="col-md-4 col-sm-6 spacing">
-          {% for news in site.posts limit: 3%}
+        
+        {% for news in site.posts limit: 3%}
+        {% assign loopindex = forloop.index | modulo: 2 %}
+        {% if loopindex == 1 %}
+           {% assign addcss = "hidden-xs" %}
+        {% endif %}
+        <div class="col-md-4 col-sm-6 {{ addcss }} spacing">
+          
           <div class="news-box">
             <figure><img src="{{ site.url }}/images/news1.jpg" alt="Image"><span class="date">{{ news.short_date }}</span></figure>
             <div class="news-caption">
@@ -252,9 +258,9 @@ title: ERC Abay-Abay Customs Brokerage
               <a href="{{ news.url }}">READ MORE</a> </div>
             <!-- end news-caption --> 
           </div>
-          <!-- end news-box --> 
-          {% endfor %}
+          <!-- end news-box -->
         </div>
+        {% endfor %}
         <!-- end col-4 -->
         <div class="col-md-4 col-sm-6 hidden-xs spacing">
           <div class="news-box">
