@@ -697,7 +697,7 @@ footer{ width:100%; float:left;}
 .services{ width:100%; float:left; padding:20px 0;}
 .services ul{ width:100%; float:left; margin:20px 0;}
 .services ul li{ width:100%; float:left; margin:3px 0;}
-.services ul li:before{content:''; width:4px; height:4px; float:left; margin-right:10px; margin-top:8px; border-radius:50%; background:#fafbfe;}
+.services ul li:before{content:''; width:4px; height:4px; float:left; margin-right:10px; margin-top:8px; border-radius:50%; background:#413686;}
 .services .image{ width:100%; float:left; margin:20px 0;}
 .services .image img{ width:100%;}
 .services .other-features{ width:100%; float:left; margin-top:30px;}
@@ -779,6 +779,10 @@ footer{ width:100%; float:left;}
 .news .news-sidebar .tags ul{ width:100%; float:left;}
 .news .news-sidebar .tags ul li{ float:left; padding:4px 7px; background:#413686; color:#fff; margin-right:5px; margin-bottom:5px;}
 .news .news-sidebar .tags ul li a{ float:left; color:#fff;}
+
+.news .blog-post ul{ width:100%; float:left; margin: 20px 0;}
+.news .blog-post ul li:before{content:''; width:4px; height:4px; float:left; margin-right:10px; margin-top:8px; border-radius:50%; background:#413686;}
+
 
 
 

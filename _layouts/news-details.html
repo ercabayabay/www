@@ -17,7 +17,7 @@ layout: default
         <!-- end col-12 -->
         <div class="col-md-9">
           <div class="blog-post">
-            <figure class="post-image"> <span class="post-date">02/OCT</span> <img src="{{ site.url }}/images/news-image3.jpg" alt="Image"></figure>
+            <figure class="post-image"> <span class="post-date">{{ page.shorthand_date }}</span> <img src="{{ site.url }}/images/{{ page.news_image }}" alt="Image"></figure>
             <h3 class="post-title">{{ page.title }}</h3>
             <p class="post-text">{{ page.excerpt }} </p>
             {{ content }}
