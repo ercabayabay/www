@@ -30,20 +30,20 @@ layout: default
           {% if paginator.total_pages > 1 %}
           <ul class="pagination">
             {% if paginator.previous_page %}
-            <li> <a href="{{ paginator.previous_page_path | prepend: site.url | replace: '//', '/' }}" aria-label="Previous"> <span aria-hidden="true"><i class="ion-arrow-left-b"></i></span> </a> </li>
+            <li> <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous"> <span aria-hidden="true"><i class="ion-arrow-left-b"></i></span> </a> </li>
             {% endif %}
             {% for page in (1..paginator.total_pages) %}
               {% if page == paginator.page %}
                  <li class="active"><a>{{ page }}<span class="sr-only">(current)</span></a></li>
               {% elsif page == 1 %}
-                 <li><a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+                 <li><a href="{{ '/news' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
                {% else %}
-                <li> <a href="{{ site.url }}/blog/page{{ page}}/">{{ page }}</a></li>
+                <li> <a href="{{ site.url }}/news/page{{ page}}/">{{ page }}</a></li>
                 {% endif %}
             {% endfor %}
 
             {% if paginator.next_page %}
-            <li> <a href="#{{ paginator.next_page_path | prepend: site.url | replace: '//', '/' }}" aria-label="Next"> <span aria-hidden="true"><i class="ion-arrow-right-b"></i></span> </a> </li>
+            <li> <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next"> <span aria-hidden="true"><i class="ion-arrow-right-b"></i></span> </a> </li>
             {% endif %}
           </ul>
           {% endif %}
