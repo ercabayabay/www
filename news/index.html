@@ -18,39 +18,35 @@ layout: default
         </div>
         <!-- end col-12 -->
         <div class="col-md-9">
+          {% for news in paginator.posts %}
           <div class="blog-post">
-            <figure class="post-image"> <span class="post-date">02/OCT</span> <img src="{{ site.baseurl }}/images/news-image1.jpg" alt="Image"></figure>
-            <h3 class="post-title">On Building Digital Capacity And Attracting Talent</h3>
-            <p class="post-text">Traditional business logic dictates that you should outsource functions that aren’t core to your business in order to let the efficiencies of the market drive down costs. Let’s say you run a profitable magazine publishing company. </p>
-            <a href="news-detail.html" class="post-link">READ ALL</a> </div>
+            <figure class="post-image"> <span class="post-date">{{ news.shorthand_date }}</span> <img src="{{ site.baseurl }}/images/{{ news.news_image }}" alt="{{ news.title }}"></figure>
+            <h3 class="post-title">{{ news.title }}</h3>
+            <p class="post-text">{{ news.excerpt | strip_html | truncatewords: 30 }} </p>
+            <a href="{{ news.url | prepend: site.url }}" class="post-link">READ ALL</a> </div>
           <!-- end blog-post -->
-          <div class="blog-post">
-            <figure class="post-image"> <span class="post-date">02/OCT</span> <img src="{{ site.baseurl }}/images/news-image2.jpg" alt="Image"></figure>
-            <h3 class="post-title">Digital services used to be seen in this way</h3>
-            <p class="post-text">You’ll probably have in-house editorial, marketing and finance teams. However, there’s little point in hiring your own cleaners because they’re not core to your business.</p>
-            <a href="news-detail.html" class="post-link">READ ALL</a> </div>
-          <!-- end blog-post -->
-          <div class="blog-post">
-            <figure class="post-image"> <span class="post-date">02/OCT</span> <img src="{{ site.baseurl }}/images/news-image3.jpg" alt="Image"></figure>
-            <h3 class="post-title">On Building Digital Capacity And Attracting Talent</h3>
-            <p class="post-text">Traditional business logic dictates that you should outsource functions that aren’t core to your business in order to let the efficiencies of the market drive down costs. Let’s say you run a profitable magazine publishing company. </p>
-            <a href="news-detail.html" class="post-link">READ ALL</a> </div>
-          <!-- end blog-post -->
-          <div class="blog-post">
-            <figure class="post-image"> <span class="post-date">02/OCT</span> <img src="{{ site.baseurl }}/images/news-image4.jpg" alt="Image"></figure>
-            <h3 class="post-title">On Building Digital Capacity And Attracting Talent</h3>
-            <p class="post-text">Traditional business logic dictates that you should outsource functions that aren’t core to your business in order to let the efficiencies of the market drive down costs. Let’s say you run a profitable magazine publishing company. </p>
-            <a href="news-detail.html" class="post-link">READ ALL</a> </div>
-          <!-- end blog-post -->
+          {% endfor %}
+
+          {% if paginator.total_pages > 1 %}
           <ul class="pagination">
-            <li> <a href="#" aria-label="Previous"> <span aria-hidden="true"><i class="ion-arrow-left-b"></i></span> </a> </li>
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li class="active"><a href="#">3 <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li> <a href="#" aria-label="Next"> <span aria-hidden="true"><i class="ion-arrow-right-b"></i></span> </a> </li>
+            {% if paginator.previous_page %}
+            <li> <a href="{{ paginator.previous_page_path | prepend: site.url | replace: '//', '/' }}" aria-label="Previous"> <span aria-hidden="true"><i class="ion-arrow-left-b"></i></span> </a> </li>
+            {% endif %}
+            {% for page in (1..paginator.total_pages) %}
+              {% if page == paginator.page %}
+                 <li class="active"><a>{{ page }}<span class="sr-only">(current)</span></a></li>
+              {% elsif page == 1 %}
+                 <li><a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+               {% else %}
+                <li> <a href="{{ site.url }}/blog/page{{ page}}/">{{ page }}</a></li>
+                {% endif %}
+            {% endfor %}
+
+            {% if paginator.next_page %}
+            <li> <a href="#{{ paginator.next_page_path | prepend: site.url | replace: '//', '/' }}" aria-label="Next"> <span aria-hidden="true"><i class="ion-arrow-right-b"></i></span> </a> </li>
+            {% endif %}
           </ul>
+          {% endif %}
         </div>
         <!-- end col-9 -->
         <div class="col-md-3">

@@ -1,7 +1,11 @@
 ---
 layout: news-details
 
-title: BOC to importers: Update your contact details or face suspension
+shorthand_date: "01 JAN"
+news_image: news-image1.jpg
+
+
+title: BOC to importers&#58; Update your contact details or face suspension
 excerpt: The Bureau of Customs reminds importers to be transparent and honest with the details that they are providing the agency.
 
 source: http://customs.gov.ph/boc-to-importers-update-your-contact-details-or-face-suspension/

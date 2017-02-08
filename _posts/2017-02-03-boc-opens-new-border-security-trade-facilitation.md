@@ -1,6 +1,10 @@
 ---
 layout: news-details
 
+shorthand_date: "03 FEB"
+news_image: news-image2.jpg
+
+
 title: BOC opens new unit for border security, trade facilitation
 excerpt: The Bureau of Customs officially opened on Thursday, 2 February its Container Control Unit as part of the agency’s continuous effort in strengthening its campaign towards effective border security and trade facilitation.
 

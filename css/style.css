@@ -753,10 +753,10 @@ footer{ width:100%; float:left;}
 .news .blog-post .post-image .post-date { position:absolute; left:0; bottom:10px; background:#303F9F; color:#fff; font-weight:700; font-size:18px; padding:3px 9px;}
 .news .blog-post .post-title{ display:block; font-size:22px; font-weight:700; color:#413686; margin-bottom:20px;}
 .news .blog-post .post-text{ font-size:15px; line-height:24px; margin-bottom:25px;}
-.news .blog-post .post-link{ float:left; font-size:15px; font-weight:700; color:#fafbfe; position:relative; padding-bottom:16px;}
+.news .blog-post .post-link{ float:left; font-size:15px; font-weight:700; color:#337ab7; position:relative; padding-bottom:16px;}
 .news .blog-post .post-link:hover{text-decoration:none;}
 .news .blog-post .post-link:hover:after{ width:100%;}
-.news .blog-post .post-link:after{content:""; width:30px; height:1px; background:#fafbfe; position:absolute; left:0; bottom:0; -webkit-transition: .15s ease-in-out;-moz-transition: .15s ease-in-out;-ms-transition: .15s ease-in-out; -o-transition: .15s ease-in-out; transition: .15s ease-in-out;}
+.news .blog-post .post-link:after{content:""; width:30px; height:1px; background:#337ab7; position:absolute; left:0; bottom:0; -webkit-transition: .15s ease-in-out;-moz-transition: .15s ease-in-out;-ms-transition: .15s ease-in-out; -o-transition: .15s ease-in-out; transition: .15s ease-in-out;}
 .news .news-sidebar{ width:100%; float:left;}
 .news .news-sidebar h4{ font-weight:500; color:#fafbfe; margin-top:0; margin-bottom:20px;}
 .news .news-sidebar .widget{ float:left; margin-bottom:30px;}

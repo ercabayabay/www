@@ -1,6 +1,10 @@
 ---
 layout: news-details
 
+shorthand_date: "07 FEB"
+news_image: news-image3.jpg
+
+
 title: BIR Confirms accreditation renewal dates for 790 importers and brokers
 excerpt: In separate advisories, BIR said the 281 importers and 43 customs brokers whose Importer’s Clearance Certificates (ICCs) and Broker’s Clearance Certificates (BCCs) are valid only until June 2017 are scheduled to renew their clearance certificates between March 1 and March 31
 
