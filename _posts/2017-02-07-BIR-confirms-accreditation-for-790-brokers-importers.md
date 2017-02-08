@@ -3,6 +3,7 @@ layout: news-details
 
 shorthand_date: "07 FEB"
 news_image: news-image3.jpg
+imageNum: 3
 
 
 title: BIR Confirms accreditation renewal dates for 790 importers and brokers

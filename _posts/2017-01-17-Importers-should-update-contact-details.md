@@ -3,6 +3,7 @@ layout: news-details
 
 shorthand_date: "01 JAN"
 news_image: news-image1.jpg
+imageNum: 1
 
 
 title: BOC to importers&#58; Update your contact details or face suspension

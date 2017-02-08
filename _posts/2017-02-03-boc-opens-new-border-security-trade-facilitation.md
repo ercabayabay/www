@@ -3,6 +3,7 @@ layout: news-details
 
 shorthand_date: "03 FEB"
 news_image: news-image2.jpg
+imageNum: 2
 
 
 title: BOC opens new unit for border security, trade facilitation

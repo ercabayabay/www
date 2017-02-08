@@ -253,12 +253,23 @@ title: ERC Abay-Abay Customs Brokerage
         <div class="col-md-4 col-sm-6 {{ addcss }} spacing">
           
           <div class="news-box">
-            <figure><img src="{{ site.url }}/images/news1.jpg" alt="Image"><span class="date">{{ news.short_date }}</span></figure>
-            <div class="news-caption">
-              <h4>{{ news.title }}</h4>
+
+            {% if loopindex == 0 %}
+             <div class="news-caption">
+              <h4>{{ news.title | truncatewords: 7 }}</h4>
               <p>{{ news.excerpt | strip_html | truncatewords: 10 }}</p>
-              <a href="{{ news.url }}">READ MORE</a> </div>
+              <a href="{{ news.url | prepend: site.url }}">READ MORE</a> </div>
             <!-- end news-caption --> 
+              <figure><img src="{{ site.url }}/images/news{{ news.imageNum }}.jpg" alt="{{ news.title }}"><span class="date">{{ news.shorthand_date }}</span></figure>
+            
+            {% else %}
+              <figure><img src="{{ site.url }}/images/news{{ news.imageNum }}.jpg" alt="{{ news.title }}"><span class="date">{{ news.shorthand_date }}</span></figure>
+            <div class="news-caption">
+              <h4>{{ news.title | truncatewords: 7 }}</h4>
+              <p>{{ news.excerpt | strip_html | truncatewords: 10 }}</p>
+              <a href="{{ news.url | prepend: site.url }}">READ MORE</a> </div>
+            <!-- end news-caption --> 
+            {% endif %}
           </div>
           <!-- end news-box -->
         </div>
