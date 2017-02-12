@@ -19,17 +19,22 @@
 <!-- JS FILES --> 
 <script src="{{ site.baseurl }}/js/jquery.min.js"></script> 
 <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script> 
+<script src="{{ site.baseurl }}/js/waypoints.min.js"></script> 
+<script src="{{ site.baseurl }}/js/jquery.counterup.min.js"></script>
+<script src="{{ site.baseurl }}/js/slick.js"></script> 
+<script src="{{ site.baseurl }}/js/jquery.stellar.js"></script> 
+{% if page.js.addGMaps %}
 <script src="{{ site.baseurl }}/js/bootstrap-select.js"></script> 
 <script src="{{ site.baseurl }}/js/bootstrap-datepicker.js"></script> 
-<script src="{{ site.baseurl }}/js/jquery.counterup.min.js"></script> 
-<script src="{{ site.baseurl }}/js/jquery.stellar.js"></script> 
+ 
+
 <script src="{{ site.baseurl }}/js/jquery.validate.min.js"></script> 
 <script src="{{ site.baseurl }}/js/jquery.form.js"></script> 
 <script src="{{ site.baseurl }}/js/contact-form.js"></script> 
-<script src="{{ site.baseurl }}/js/jquery.fancybox.js"></script> <script src="{{ site.baseurl }}/js/waypoints.min.js"></script> 
-<script src="{{ site.baseurl }}/js/slick.js"></script> 
+<script src="{{ site.baseurl }}/js/jquery.fancybox.js"></script> 
+
+
 <script src="{{ site.baseurl }}/js/masonry.min.js"></script> 
-{% if page.js.addGMaps %}
 <script src="//maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBZw-Dyl7DgSwSOosaAIuwxnv0fqlLlPHU" type="text/javascript"></script>
 {% endif %}
 {% for js in page.js.files %}

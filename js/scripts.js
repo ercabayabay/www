@@ -6,7 +6,7 @@ $(document).ready(function() {
 	"use strict";
 	
 	// FANCYBOX
-		$(".fancybox").fancybox();
+	//	$(".fancybox").fancybox();
 	
 	// HAMBURGER MENU
 		$('.hamburger-menu').on('click', function(e) {
@@ -29,10 +29,10 @@ $(document).ready(function() {
 		$('[data-toggle="tooltip"]').tooltip()
 	
 	// CUSTOM SELECT
-		$('.selectpicker').selectpicker();
+	//	$('.selectpicker').selectpicker();
 	
 	// DATE PICKER
-		$('.datepicker').datepicker()
+	//	$('.datepicker').datepicker()
 	
 	// MAIN SLIDER
 		$('.main-slider').slick({
@@ -88,11 +88,11 @@ $(document).ready(function() {
 		});
 
 	// MASONRY
-		var $container = $('.masonry');
+	/*	var $container = $('.masonry');
 		$container.masonry({
 		  columnWidth: 0,
 		  itemSelector: '.masonry li'
-		});
+		});*/
 	
 	// COMPUTATION MODAL
 	$('#calculateBtn').click(function(){
