@@ -49,4 +49,8 @@ There have been efforts since 2010 to implement the electronic submission of air
 Automation of airfreight manifest submission is also an advocacy of the International Air Transport Association. 
 
 source: [http://www.portcalls.com/boc-prepares-switchon-mode-air-cargo-manifest-elodgment/][src]
+
 [src]: http://www.portcalls.com/boc-prepares-switchon-mode-air-cargo-manifest-elodgment/
+[cmo]: http://customs.gov.ph/wp-content/uploads/2015/04/CMO-No.10-2015-Mandatory-Submission-of-Manifests-for-Air-Cargo.pdf
+[boc]: http://customs.gov.ph/
+[erc]: http://ercabayabay.com/

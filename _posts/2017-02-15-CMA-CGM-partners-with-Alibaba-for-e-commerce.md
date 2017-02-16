@@ -27,4 +27,5 @@ Under the arrangement, the CMA CGM MEX 1 service, connecting Asia to Mediterrean
 The CMA CGM BEX service, connecting Asia to Adriatic ports, will propose the ports of loading as Shanghai, Ningbo, and Chiwan, with the ports of discharge in Adriatic base ports as Rijeka, Koper, Trieste, and Venice.
 
 source: [http://www.portcalls.com/cma-cgm-alibaba-partner-ecommerce/][src]
+
 [src]: http://www.portcalls.com/cma-cgm-alibaba-partner-ecommerce/

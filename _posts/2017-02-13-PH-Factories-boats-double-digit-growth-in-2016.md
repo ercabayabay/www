@@ -35,4 +35,5 @@ Notwithstanding the impressive performance of the manufacturing sector, Pernia b
 >“We must further encourage the expansion of the capacity of existing firms, entry of new ones and facilitate linkages across firms and sectors. The use of science, technology and innovation must also be promoted. We must also enhance the competencies of our labor force to produce high-quality and competitive products,” he said.
 
 source: [http://www.portcalls.com/ph-factory-output-boasts-doubledigit-growth-2016/][src]
+
 [src]: http://www.portcalls.com/ph-factory-output-boasts-doubledigit-growth-2016/
