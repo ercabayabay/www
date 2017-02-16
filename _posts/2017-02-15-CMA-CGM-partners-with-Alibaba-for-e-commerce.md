@@ -3,7 +3,7 @@ layout: news-details
 
 shorthand_date: "15 FEB"
 news_image: news-image1.jpg
-imageNum: 3
+imageNum: 1
 
 
 title: CMA CGM and Alibaba Partner For Online Commerce

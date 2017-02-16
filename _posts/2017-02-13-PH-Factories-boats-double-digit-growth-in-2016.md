@@ -1,9 +1,9 @@
 ---
 layout: news-details
 
-shorthand_date: "12 FEB"
+shorthand_date: "13 FEB"
 news_image: news-image2.jpg
-imageNum: 3
+imageNum: 2
 
 
 title: PH Factory Output Boasts Double-digit Growth
