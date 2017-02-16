@@ -22,14 +22,14 @@ This is a 4.97 MMT increase from 23.93 MMT cargo throughput in a 9-month period 
 
 >“This goes to show that our economy is doing well. We also have good trade and commerce here in Cebu,” Oscar Lopez, chief of the CPA port management department, told CDN in a phone interview.
 
-##Foreign, domestic cargo
+## Foreign, domestic cargo ##
 
 Foreign cargo volumes rose by 42 percent, from 4.55 MMT in 2015 to 6.47 MMT this year while domestic volumes grew from 19.38 MMT to 22.43 MMT, logging a growth rate of 15.47 percent.
 
 Lopez said 80 percent of all cargoes pass through ports, while the rest are shipped via air freight.
 A cargo throughput is the average quantity of cargo that can pass through a port on a daily basis from arrival at the port to loading onto a ship or from the discharge from a ship to the exit from the port complex. A throughput includes brick bulk, bulk, and roll on-roll off cargoes.
 
-##Container traffic
+## Container traffic ##
 
 Meanwhile, container traffic grew by 7.7 percent in volume with 657,043 twenty-foot equivalent units (TEU) for the first nine months of 2016 compared to 610,003 TEUs processed one year earlier.
 
@@ -43,7 +43,7 @@ Data from the Bureau of Customs in Cebu (BOC) showed that the office collected P
 
 BOC earlier cited as factors that helped them achieve their collection surplus the revenues they collected from both power and fuel sector importations.
 
-###Jobs, infrastructure
+## Jobs, infrastructure ##
 
 Lopez said the increase in cargo volume helps create more jobs within the port community as well as give value to customers and port users.
 
