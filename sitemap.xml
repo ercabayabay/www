@@ -11,9 +11,9 @@ title: Sitemap
 {% endfor %}
 
 {% for page in site.pages %}
-    {% unless page.layout == 're-direct' %} 
+    {% unless page.layout == 're-direct' or page.hideSiteMap %} 
 	<url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
+        <loc>{{ site.url }}{{ page.url | replace: '/index.html' , '/' }}</loc>
     </url>
 	{% endunless %}
     

@@ -1,4 +1,5 @@
 ---
+hideSiteMap: true
 ---
 // JavaScript for themezinho
 (function($) {
