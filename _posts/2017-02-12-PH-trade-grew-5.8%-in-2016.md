@@ -35,4 +35,5 @@ Only Vietnam and the Philippines posted positive gains in 2016 merchandise trade
 He added that a global mindset needs to be instilled in the country’s micro, small, and medium enterprises (MSMEs) and a conducive business environment created for them. This can be done by helping MSMEs address internal and external constraints to their development and trade potential, Pernia noted. He said all these strategies are included in the proposed Philippine Development Plan 2017-2022.
 
 source: [http://www.portcalls.com/ph-trade-expands-58-2016-robust-imports/][src]
+
 [src]: http://www.portcalls.com/ph-trade-expands-58-2016-robust-imports/

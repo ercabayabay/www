@@ -37,4 +37,5 @@ On preparations being undertaken by the terminal, Page said the main concern is 
 Under the SOLAS amendment, there are three ways for shippers to communicate the VGM—through the shipping line’s website, third-party ports system such as Inttra, and through email, according to Maersk Line Filipinas, Inc. inland operations manager Maria Cecilia Bejoc, who also spoke at the Visayas Shipping Conference.
 
 source: [http://www.portcalls.com/cebu-produces-draft-policy-solas-vgm-ruling/][src]
+
 [src]:http://www.portcalls.com/cebu-produces-draft-policy-solas-vgm-ruling/
