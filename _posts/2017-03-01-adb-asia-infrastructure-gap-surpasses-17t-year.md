@@ -3,16 +3,17 @@ layout: news-details
 
 shorthand_date: "01 MAR"
 news_image: news-image2.jpg
-imageNum: 3
+imageNum: 1
 
 
-title: ADB: More Than $1.7T per year, Asia Infrastructure Gap
+title: 'ADB: More Than $1.7T per year, Asia Infrastructure Gap'
 
 excerpt: Infrastructure needs in developing Asia and the Pacific will exceed US$22.6 trillion, or $1.5 trillion per year, from 2016 to 2030, if the region is to maintain growth momentum, according to a new flagship report by the Asian Development Bank (ADB).
 
 source: http://www.portcalls.com/adb-asia-infrastructure-gap-surpasses-17t-year/
 
 ---
+
 The estimates rise to over $26 trillion, or $1.7 trillion per year, when climate change mitigation and adaptation costs are incorporated.
 
 Of the total climate-adjusted investment needs over the 15-year period, $14.7 trillion will be for power and $8.4 trillion for transport, said the report entitled ***Meeting Asia’s Infrastructure Needs***. Investments in telecommunications will reach $2.3 trillion, with water and sanitation costs at $800 billion.
