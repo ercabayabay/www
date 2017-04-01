@@ -1,7 +1,8 @@
 ---
 ---
 var locations = [
-      ['ERC Abay Abay Customs Brokerage', 10.310009, 123.917905, 1],
+      ['ERC Abay Abay Customs Brokerage', 10.309728, 123.915448, 1],
+
     ];
 
     var map = new google.maps.Map(document.getElementById('map'), {
