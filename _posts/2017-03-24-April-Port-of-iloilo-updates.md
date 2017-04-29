@@ -5,10 +5,9 @@ shorthand_date: "24 APR"
 news_image: news-image1.jpg
 imageNum: 1
 
-
 title: 'Port of Iloilo for Week of April 7-20, 2017'
 
-excerpt: The entire District of Iloilo has a total of eighteen entries filed: exports, formal and informal entries, and a total of eight entries completed both formal and informal. 
+excerpt: The entire District of Iloilo has a total of eighteen entries filed - exports, formal and informal entries, and a total of eight entries completed both formal and informal. 
 
 source: http://customs.gov.ph/port-of-iloilo-for-the-week-of-april-7-20-2017/
 
