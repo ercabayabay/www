@@ -18,7 +18,7 @@ In a text message, BOC spokesperson Atty. Mandy Therese Anderson, who is also ch
 
 A public consultation with accredited surveyors, stakeholders’ organizations, and companies was already held by AOCG on May 17, in which the draft presidential administrative order (AO) that extends the LPS program to containerized cargoes was handed to stakeholders.
 
-For a copy of the draft administrative order, click [https://www.scribd.com/document/349100774/Draft-of-Philippine-administrative-order-on-pre-shipment-inspection-of-containers][https://www.scribd.com/document/349100774/Draft-of-Philippine-administrative-order-on-pre-shipment-inspection-of-containers] here.
+For a copy of the draft administrative order, click [https://www.scribd.com/document/349100774/Draft-of-Philippine-administrative-order-on-pre-shipment-inspection-of-containers][scribd] here.
 
 The proposal has garnered mixed reactions from stakeholders, some saying it would hasten shipment processing, others finding it an unnecessary cost.
 
@@ -78,3 +78,4 @@ He said LPS is unnecessary since all information needed is available in shipping
 source: [http://www.portcalls.com/boc-revives-plan-require-preshipment-inspection-containers/][src]
 
 [src]: http://www.portcalls.com/boc-revives-plan-require-preshipment-inspection-containers/
+[scribd]: https://www.scribd.com/document/349100774/Draft-of-Philippine-administrative-order-on-pre-shipment-inspection-of-containers
