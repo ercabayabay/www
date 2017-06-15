@@ -7,4 +7,20 @@
   ga('create', 'UA-90491302-1', 'auto');
   ga('send', 'pageview');
 
+  function handleClickToCall(event) {
+    ga('send', 'event', {
+      eventCategory: 'Click To Call Button',
+      eventAction: 'call',
+      eventLabel: window.location.pathname
+    });
+  }
+
+  function handleClickToEmail(event) {
+    ga('send', 'event', {
+      eventCategory: 'Click To Email Button',
+      eventAction: 'email',
+      eventLabel: window.location.pathname
+    });
+  }
+
 </script>
