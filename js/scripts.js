@@ -129,9 +129,6 @@ $(document).ready(function() {
 
 		$('#computation').modal();
 	});
-
-	$('.call-btn').click(handleClickToCall);
-	$('.email-btn').click(handleClickToEmail);
 		
 })(jQuery);
 
