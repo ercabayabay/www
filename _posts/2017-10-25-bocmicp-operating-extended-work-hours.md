@@ -1,9 +1,9 @@
 ---
 layout: news-details
 
-shorthand_date: "25 OCT"
-news_image: news-image3.jpg
-imageNum: 3
+shorthand_date: "18 OCT"
+news_image: news-image1.jpg
+imageNum: 1
 
 
 title: 'Extended Hours For BOC-MICP to Facilitate Trade And Minimize Congestion'
