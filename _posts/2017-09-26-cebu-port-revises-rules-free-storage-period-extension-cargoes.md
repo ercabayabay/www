@@ -1,7 +1,7 @@
 ---
 layout: news-details
 
-shorthand_date: "25 SEPT"
+shorthand_date: "26 SEPT"
 news_image: news-image2.jpg
 imageNum: 2
 
