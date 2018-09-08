@@ -26,7 +26,7 @@ var locations = [
       marker = new google.maps.Marker({
         position: new google.maps.LatLng(locations[i][1], locations[i][2]),
         map: map,
-		icon: '{{ site.baseurl }}/images/map-pin.png'
+		icon: '{{ site.url }}/images/map-pin.png'
       });
 
       google.maps.event.addListener(marker, 'click', (function(marker, i) {

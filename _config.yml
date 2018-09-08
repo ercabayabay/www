@@ -1,12 +1,12 @@
 # Site settings
 title: ERC Abay Abay Customs Brokerage
 email: emmanabayabay@yahoo.com
-description: > # this means to ignore newlines until "baseurl:"
+description: > # this means to ignore newlines until "url:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://ercabayabay.com" # the base hostname & protocol for your site
+url: "" # the subpath of your site, e.g. /blog/
+url: "https://www.ercabayabay.com" # the base hostname & protocol for your site
 #url: http://127.0.0.1:4000
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -46,4 +46,6 @@ plugins:
 
 paginate: 4
 paginate_path: "/news/page:num/"
+
+destination: ../public
 
