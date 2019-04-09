@@ -50,7 +50,7 @@ jQuery(document).ready(function($) {
                             name: vName,
                             _subject: vSubject
                 },
-                url:"http://formspree.io/{{ site.gmail }}",
+                url:"https://formspree.io/{{ site.yahoomail }}",
                 success: function() {
                     $('#contact :input').attr('disabled', 'disabled');
                     $('#contact').fadeTo( "slow", 0.15, function() {
